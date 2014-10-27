@@ -1,0 +1,14 @@
+/*
+Theme Name: Amino
+Theme URI: http://joshellington.com/amino
+Description: Amino is a WordPress starter theme based on HTML5 Boilerplate, html5Blank and Roots.
+Version: 1.0.0
+Author: Josh Ellington
+Author URI: http://joshellington.com/
+
+License: MIT License
+License URI: http://opensource.org/licenses/MIT
+*/
+
+@import url("css/reset.css");
+@import url("css/main.css");
