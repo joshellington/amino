@@ -376,7 +376,7 @@ add_action('wp_enqueue_scripts', 'amino_styles'); // Add Theme Stylesheet
 add_action('init', 'register_amino_menu'); // Add Amino Menu
 add_action('init', 'create_post_type_amino'); // Add our Amino Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
-add_action('init', 'amino_pagination'); // Add our Amino Pagination
+add_action('init', 'aminowp_pagination'); // Add our Amino Pagination
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
